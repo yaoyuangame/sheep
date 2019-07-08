@@ -1,140 +1,303 @@
 {
-	"groups": [
+	"groups":[
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json",
-			"name": "preload"
+			"keys":"checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json",
+			"name":"preload"
+		},
+		{
+			"keys":"img_setup_png,img_sheep_01_png,img_sheep_02_png,img_sheep_03_png,img_tiao_bg_png,img_tiao_blue_png,img_tiao_red_png,img_wolf_png,img_yuan_01_png,img_yuan_02_png,倒计时_png,咩咩咩1_jpg,平衡时间_png,btn_rankinglist02_png,icon_sheep_png,icon_wolf_png,img_arrow_png,img_bg02_jpg,img_biao_png,img_djs_png,img_grass_png,img_hands_png,img_light_png,img_line01_png,img_phsj_png",
+			"name":"game"
+		},
+		{
+			"keys":"img_content_png,logo_png,btn_rankinglist01_png,btn_rules_png,btn_start_png,img_bg01_jpg",
+			"name":"welcome"
 		}
 	],
-	"resources": [
+	"resources":[
 		{
-			"url": "assets/CheckBox/checkbox_select_disabled.png",
-			"type": "image",
-			"name": "checkbox_select_disabled_png"
+			"name":"checkbox_select_disabled_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_select_disabled.png"
 		},
 		{
-			"url": "assets/CheckBox/checkbox_select_down.png",
-			"type": "image",
-			"name": "checkbox_select_down_png"
+			"name":"checkbox_select_down_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_select_down.png"
 		},
 		{
-			"url": "assets/CheckBox/checkbox_select_up.png",
-			"type": "image",
-			"name": "checkbox_select_up_png"
+			"name":"checkbox_select_up_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_select_up.png"
 		},
 		{
-			"url": "assets/CheckBox/checkbox_unselect.png",
-			"type": "image",
-			"name": "checkbox_unselect_png"
+			"name":"checkbox_unselect_png",
+			"type":"image",
+			"url":"assets/CheckBox/checkbox_unselect.png"
 		},
 		{
-			"url": "assets/ItemRenderer/selected.png",
-			"type": "image",
-			"name": "selected_png"
+			"name":"selected_png",
+			"type":"image",
+			"url":"assets/ItemRenderer/selected.png"
 		},
 		{
-			"url": "assets/Panel/border.png",
-			"type": "image",
-			"name": "border_png"
+			"name":"border_png",
+			"type":"image",
+			"url":"assets/Panel/border.png"
 		},
 		{
-			"url": "assets/Panel/header.png",
-			"type": "image",
-			"name": "header_png"
+			"name":"header_png",
+			"type":"image",
+			"url":"assets/Panel/header.png"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_select_disabled.png",
-			"type": "image",
-			"name": "radiobutton_select_disabled_png"
+			"name":"radiobutton_select_disabled_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_select_disabled.png"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_select_down.png",
-			"type": "image",
-			"name": "radiobutton_select_down_png"
+			"name":"radiobutton_select_down_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_select_down.png"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_select_up.png",
-			"type": "image",
-			"name": "radiobutton_select_up_png"
+			"name":"radiobutton_select_up_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_select_up.png"
 		},
 		{
-			"url": "assets/RadioButton/radiobutton_unselect.png",
-			"type": "image",
-			"name": "radiobutton_unselect_png"
+			"name":"radiobutton_unselect_png",
+			"type":"image",
+			"url":"assets/RadioButton/radiobutton_unselect.png"
 		},
 		{
-			"url": "assets/ScrollBar/roundthumb.png",
-			"type": "image",
-			"name": "roundthumb_png"
+			"name":"roundthumb_png",
+			"type":"image",
+			"url":"assets/ScrollBar/roundthumb.png"
 		},
 		{
-			"url": "assets/Slider/thumb.png",
-			"type": "image",
-			"name": "thumb_png"
+			"name":"thumb_png",
+			"type":"image",
+			"url":"assets/Slider/thumb.png"
 		},
 		{
-			"url": "assets/Slider/track.png",
-			"type": "image",
-			"name": "track_png"
+			"name":"track_png",
+			"type":"image",
+			"url":"assets/Slider/track.png"
 		},
 		{
-			"url": "assets/Slider/tracklight.png",
-			"type": "image",
-			"name": "tracklight_png"
+			"name":"tracklight_png",
+			"type":"image",
+			"url":"assets/Slider/tracklight.png"
 		},
 		{
-			"url": "assets/ToggleSwitch/handle.png",
-			"type": "image",
-			"name": "handle_png"
+			"name":"handle_png",
+			"type":"image",
+			"url":"assets/ToggleSwitch/handle.png"
 		},
 		{
-			"url": "assets/ToggleSwitch/off.png",
-			"type": "image",
-			"name": "off_png"
+			"name":"off_png",
+			"type":"image",
+			"url":"assets/ToggleSwitch/off.png"
 		},
 		{
-			"url": "assets/ToggleSwitch/on.png",
-			"type": "image",
-			"name": "on_png"
+			"name":"on_png",
+			"type":"image",
+			"url":"assets/ToggleSwitch/on.png"
 		},
 		{
-			"url": "assets/Button/button_down.png",
-			"type": "image",
-			"name": "button_down_png"
+			"name":"button_down_png",
+			"type":"image",
+			"url":"assets/Button/button_down.png"
 		},
 		{
-			"url": "assets/Button/button_up.png",
-			"type": "image",
-			"name": "button_up_png"
+			"name":"button_up_png",
+			"type":"image",
+			"url":"assets/Button/button_up.png"
 		},
 		{
-			"url": "assets/ProgressBar/thumb_pb.png",
-			"type": "image",
-			"name": "thumb_pb_png"
+			"name":"thumb_pb_png",
+			"type":"image",
+			"url":"assets/ProgressBar/thumb_pb.png"
 		},
 		{
-			"url": "assets/ProgressBar/track_pb.png",
-			"type": "image",
-			"name": "track_pb_png"
+			"name":"track_pb_png",
+			"type":"image",
+			"url":"assets/ProgressBar/track_pb.png"
 		},
 		{
-			"url": "assets/ScrollBar/track_sb.png",
-			"type": "image",
-			"name": "track_sb_png"
+			"name":"track_sb_png",
+			"type":"image",
+			"url":"assets/ScrollBar/track_sb.png"
 		},
 		{
-			"url": "assets/bg.jpg",
-			"type": "image",
-			"name": "bg_jpg"
+			"name":"bg_jpg",
+			"type":"image",
+			"url":"assets/bg.jpg"
 		},
 		{
-			"url": "assets/egret_icon.png",
-			"type": "image",
-			"name": "egret_icon_png"
+			"name":"egret_icon_png",
+			"type":"image",
+			"url":"assets/egret_icon.png"
 		},
 		{
-			"name": "description_json",
-			"type": "json",
-			"url": "config/description.json"
+			"name":"description_json",
+			"type":"json",
+			"url":"config/description.json"
+		},
+		{
+			"name":"img_content_png",
+			"type":"image",
+			"url":"assets/game/welcome/img_content.png"
+		},
+		{
+			"name":"logo_png",
+			"type":"image",
+			"url":"assets/game/welcome/logo.png"
+		},
+		{
+			"name":"btn_rankinglist01_png",
+			"type":"image",
+			"url":"assets/game/welcome/btn_rankinglist01.png"
+		},
+		{
+			"name":"btn_rules_png",
+			"type":"image",
+			"url":"assets/game/welcome/btn_rules.png"
+		},
+		{
+			"name":"btn_start_png",
+			"type":"image",
+			"url":"assets/game/welcome/btn_start.png"
+		},
+		{
+			"name":"img_bg01_jpg",
+			"type":"image",
+			"url":"assets/game/welcome/img_bg01.jpg"
+		},
+		{
+			"name":"img_setup_png",
+			"type":"image",
+			"url":"assets/game/main/img_setup.png"
+		},
+		{
+			"name":"img_sheep_01_png",
+			"type":"image",
+			"url":"assets/game/main/img_sheep_01.png"
+		},
+		{
+			"name":"img_sheep_02_png",
+			"type":"image",
+			"url":"assets/game/main/img_sheep_02.png"
+		},
+		{
+			"name":"img_sheep_03_png",
+			"type":"image",
+			"url":"assets/game/main/img_sheep_03.png"
+		},
+		{
+			"name":"img_tiao_bg_png",
+			"type":"image",
+			"url":"assets/game/main/img_tiao_bg.png"
+		},
+		{
+			"name":"img_tiao_blue_png",
+			"type":"image",
+			"url":"assets/game/main/img_tiao_blue.png"
+		},
+		{
+			"name":"img_tiao_red_png",
+			"type":"image",
+			"url":"assets/game/main/img_tiao_red.png"
+		},
+		{
+			"name":"img_wolf_png",
+			"type":"image",
+			"url":"assets/game/main/img_wolf.png"
+		},
+		{
+			"name":"img_yuan_01_png",
+			"type":"image",
+			"url":"assets/game/main/img_yuan_01.png"
+		},
+		{
+			"name":"img_yuan_02_png",
+			"type":"image",
+			"url":"assets/game/main/img_yuan_02.png"
+		},
+		{
+			"name":"倒计时_png",
+			"type":"image",
+			"url":"assets/game/main/倒计时.png"
+		},
+		{
+			"name":"咩咩咩1_jpg",
+			"type":"image",
+			"url":"assets/game/main/咩咩咩1.jpg"
+		},
+		{
+			"name":"平衡时间_png",
+			"type":"image",
+			"url":"assets/game/main/平衡时间.png"
+		},
+		{
+			"name":"btn_rankinglist02_png",
+			"type":"image",
+			"url":"assets/game/main/btn_rankinglist02.png"
+		},
+		{
+			"name":"icon_sheep_png",
+			"type":"image",
+			"url":"assets/game/main/icon_sheep.png"
+		},
+		{
+			"name":"icon_wolf_png",
+			"type":"image",
+			"url":"assets/game/main/icon_wolf.png"
+		},
+		{
+			"name":"img_arrow_png",
+			"type":"image",
+			"url":"assets/game/main/img_arrow.png"
+		},
+		{
+			"name":"img_bg02_jpg",
+			"type":"image",
+			"url":"assets/game/main/img_bg02.jpg"
+		},
+		{
+			"name":"img_biao_png",
+			"type":"image",
+			"url":"assets/game/main/img_biao.png"
+		},
+		{
+			"name":"img_djs_png",
+			"type":"image",
+			"url":"assets/game/main/img_djs.png"
+		},
+		{
+			"name":"img_grass_png",
+			"type":"image",
+			"url":"assets/game/main/img_grass.png"
+		},
+		{
+			"name":"img_hands_png",
+			"type":"image",
+			"url":"assets/game/main/img_hands.png"
+		},
+		{
+			"name":"img_light_png",
+			"type":"image",
+			"url":"assets/game/main/img_light.png"
+		},
+		{
+			"name":"img_line01_png",
+			"type":"image",
+			"url":"assets/game/main/img_line01.png"
+		},
+		{
+			"name":"img_phsj_png",
+			"type":"image",
+			"url":"assets/game/main/img_phsj.png"
 		}
 	]
 }
